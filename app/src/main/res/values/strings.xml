@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">gzclp</string>
+    <string name="item1">Workouts</string>
+    <string name="item2">History</string>
+    <string name="item3">Config</string>
+    <string name="next">Your next workout:</string>
+    <string name="start">Start!</string>
+
+
+</resources>

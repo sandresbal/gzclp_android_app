@@ -1,71 +1,140 @@
 package com.silviaandres.gzclp.models;
 
+import java.util.Calendar;
+import java.util.Date;
+import java.util.Map;
 
 public class Session {
 
-    public String name = "A1";
-    public int id = 0;
-    public String t1_exercise = "";
-    public String t2_exercise = "";
-    public String t3a_exercise = "";
-    public String t3b_exercise = "";
-    public int[] rep_serie = new int[2];
+    private String session_name;
+    private int id;
+    private Date currentTime;
+    private String[] session_exercises = new String[4];
+    private int[] session_data = new int[4];
+    private Round[] array_rounds;
 
-    public Session () {
-        switch (this.name) {
-            case ("A1"):
-            this.t1_exercise = "Squat";
-            this.t2_exercise = "Bench";
-            this.t3a_exercise = "Good Morning";
-            this.t3b_exercise = "Skullcrushers";
-            break;
-        }
+    private Map<String, Integer> round_mapped;
+
+    public Session(String name) {
+
+        this.session_name = name;
+        this.currentTime = Calendar.getInstance().getTime();
+        this.session_exercises = configureExercises(name); //TODO CREO QUE SE NECESITA
+        //this.round_mapped = configureRounds(session_name);
+        //this.session_data = configureData(name, data);
         id = +id;
-        //name = calculate_next_name(name);
+
     }
 
-    public String calculate_next_name(String current_name){
-        String next_name ="";
-        switch (current_name) {
+    public Map<String, Integer> configureRounds(String session_name, Data data) {
+        Map<String, Integer> rounds_of_the_session = null;
+        int[] array_integers = configureData(session_name, data);
+        String[] array_strings = configureExercises(session_name);
+        for (int i = 0; i < 4; i++) {
+            rounds_of_the_session.put(array_strings[0], array_integers[0]);
+        }
+        return rounds_of_the_session;
+    }
+
+    public Round[] configureRounds2(String session_name, Data data) {
+        Round[] array_of_rounds = new Round[4];
+        int[] array_integers = configureData(session_name, data);
+        String[] array_strings = configureExercises(session_name);
+        String type_exercise;
+        for (int i = 0; i < 4; i++) {
+            switch (i) {
+                case (0):
+                    type_exercise = "T1";
+                    break;
+                case (1):
+                    type_exercise = "T2";
+                    break;
+                case (2):
+                    type_exercise = "T3";
+                    break;
+                case (3):
+                    type_exercise = "T3";
+                    break;
+            }
+
+            Round r ();
+
+            array_of_rounds[i] = r;
+        }
+    }
+
+    public int[] configureData(String session_name, Data data) {
+
+        int[] session_data = new int[4];
+
+        switch (session_name) {
             case ("A1"):
-                next_name = "B1";
+                session_data[0] = data.getWeight_squat();
+                session_data[1] = data.getWeight_row();
+                session_data[2] = data.getWeight_CG_bench();
+                session_data[3] = data.getLegs_elevation();
                 break;
             case ("B1"):
-                next_name = "A2";
+                session_data[0] = data.getWeight_ohp();
+                session_data[1] = data.getWeight_front_squat();
+                session_data[2] = data.getWeight_lateral_raises();
+                session_data[3] = data.getNumber_hundreds();
                 break;
-            case("A2"):
-                next_name = "B2";
+            case ("A2"):
+                session_data[0] = data.getWeight_deadlift();
+                session_data[1] = data.getWeight_lunges();
+                session_data[2] = data.getWeight_scullcrushers();
+                session_data[3] = data.getWeight_pulldown();
                 break;
-            case("B2"):
-                next_name = "A1";
+            case ("B2"):
+                session_data[0] = data.getWeight_bench();
+                session_data[1] = data.getWeight_sumo();
+                session_data[2] = data.getWeight_good_morning();
+                session_data[3] = data.getTime_plank();
                 break;
         }
-        return next_name;
+        return session_data;
     }
 
 
-    public String getName() {
-        return name;
+    public String[] configureExercises(String session_name) {
+        /*String[] t1 = {"squat", "ohp", "deadlift", "bench"};
+        String[] t2= {"row", "front squat", "lunges", "sumo deadlift"};
+        String[] t3a = {"close grip bench", "lateral raises", "scullcrushers", "good morning"};
+        String[] t3b = {"abs: legs elevation", "abs: hundreds", "pull down", "plank"};*/
+        String[][] available_exercises = {{"squat", "ohp", "deadlift", "bench"},
+                {"row", "front squat", "lunges", "sumo deadlift"},
+                {"close grip bench", "lateral raises", "scullcrushers", "good morning"},
+                {"abs: legs elevation", "abs: hundreds", "pull down", "plank"}
+        };
+        String[] session_configuration = new String[4];
+
+        switch (session_name) {
+            case ("A1"):
+                for (int i = 0; i < 4; i++) {
+                    session_configuration[i] = available_exercises[i][0];
+                }
+                break;
+            case ("B1"):
+                for (int i = 0; i < 4; i++) {
+                    session_configuration[i] = available_exercises[i][1];
+                }
+                break;
+            case ("A2"):
+                for (int i = 0; i < 4; i++) {
+                    session_configuration[i] = available_exercises[i][2];
+                }
+                break;
+            case ("B2"):
+                for (int i = 0; i < 4; i++) {
+                    session_configuration[i] = available_exercises[i][2];
+                }
+                break;
+        }
+        return session_configuration;
+
     }
 
-    public String getT1_exercise() {
-        return t1_exercise;
-    }
 
-    public String getT2_exercise() {
-        return t2_exercise;
-    }
-
-    public String getT3a_exercise() {
-        return t3a_exercise;
-    }
-
-    public String getT3b_exercise() {
-        return t3b_exercise;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
+    //TODO GETTERS AND SETTERS
 }

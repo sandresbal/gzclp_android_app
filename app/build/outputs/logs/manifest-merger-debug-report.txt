@@ -1,0 +1,124 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/silvia/Documents/Programacion/Repositorios/gzclp/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Users/silvia/Documents/Programacion/Repositorios/gzclp/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Users/silvia/Documents/Programacion/Repositorios/gzclp/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Users/silvia/Documents/Programacion/Repositorios/gzclp/app/src/main/AndroidManifest.xml:2:1-26:12
+MERGED from [com.android.support:design:27.1.1] /Users/silvia/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/c73e5a62043ccdc998bdff6fe6e0a9ea/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/silvia/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/2c598194a3d5682b51fae89fd50c8185/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/silvia/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/fd9dd2612999d030d2d8b025431485a2/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-v4:27.1.1] /Users/silvia/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/624a5957940f1fbf0cf8e82e46ed2c3a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/silvia/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/3c805bdeb36ef6e313b822df25e9c609/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/silvia/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/e6373fa5af195837f6e9a28826871769/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/silvia/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/5d4d48494fdab39678186e7ef67834a9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/silvia/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/297e8f782074de422dd6456c619429e4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/silvia/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/bbce5eb090c3cc0eddaab58a07a620ef/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/silvia/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/13e064d91ed4c6078f62abc3b41d9c63/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] /Users/silvia/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/436fa4f184868ef52f4260492d159eb5/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/silvia/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/fc254dee03fb9ea9add7ae7972bd5162/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] /Users/silvia/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/8fb7714bbfd3b15400a52fac78b18493/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/silvia/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/4ec50bdeb9623649ccc16ae90c4e7f6d/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/silvia/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/7a14aa36d7d39841680de4cc929c8c14/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/silvia/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/efb3e83a3b75a967f0efd1aa742744d9/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] /Users/silvia/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/b1d0935d6e119c4d2768ca2f3568a61a/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/silvia/Documents/Programacion/Repositorios/gzclp/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Users/silvia/Documents/Programacion/Repositorios/gzclp/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Users/silvia/Documents/Programacion/Repositorios/gzclp/app/src/main/AndroidManifest.xml:2:1-26:12
+	package
+		ADDED from /Users/silvia/Documents/Programacion/Repositorios/gzclp/app/src/main/AndroidManifest.xml:3:5-37
+		INJECTED from /Users/silvia/Documents/Programacion/Repositorios/gzclp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/silvia/Documents/Programacion/Repositorios/gzclp/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/silvia/Documents/Programacion/Repositorios/gzclp/app/src/main/AndroidManifest.xml
+		ADDED from /Users/silvia/Documents/Programacion/Repositorios/gzclp/app/src/main/AndroidManifest.xml:2:1-26:12
+		INJECTED from /Users/silvia/Documents/Programacion/Repositorios/gzclp/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/silvia/Documents/Programacion/Repositorios/gzclp/app/src/main/AndroidManifest.xml
+		ADDED from /Users/silvia/Documents/Programacion/Repositorios/gzclp/app/src/main/AndroidManifest.xml:2:1-26:12
+		INJECTED from /Users/silvia/Documents/Programacion/Repositorios/gzclp/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/silvia/Documents/Programacion/Repositorios/gzclp/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/silvia/Documents/Programacion/Repositorios/gzclp/app/src/main/AndroidManifest.xml:5:5-24:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/silvia/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/fd9dd2612999d030d2d8b025431485a2/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/silvia/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/fd9dd2612999d030d2d8b025431485a2/AndroidManifest.xml:9:5-20
+	android:supportsRtl
+		ADDED from /Users/silvia/Documents/Programacion/Repositorios/gzclp/app/src/main/AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from /Users/silvia/Documents/Programacion/Repositorios/gzclp/app/src/main/AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from /Users/silvia/Documents/Programacion/Repositorios/gzclp/app/src/main/AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from /Users/silvia/Documents/Programacion/Repositorios/gzclp/app/src/main/AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from /Users/silvia/Documents/Programacion/Repositorios/gzclp/app/src/main/AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from /Users/silvia/Documents/Programacion/Repositorios/gzclp/app/src/main/AndroidManifest.xml:11:9-40
+activity#com.silviaandres.gzclp.MainActivity
+ADDED from /Users/silvia/Documents/Programacion/Repositorios/gzclp/app/src/main/AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from /Users/silvia/Documents/Programacion/Repositorios/gzclp/app/src/main/AndroidManifest.xml:12:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/silvia/Documents/Programacion/Repositorios/gzclp/app/src/main/AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from /Users/silvia/Documents/Programacion/Repositorios/gzclp/app/src/main/AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from /Users/silvia/Documents/Programacion/Repositorios/gzclp/app/src/main/AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/silvia/Documents/Programacion/Repositorios/gzclp/app/src/main/AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from /Users/silvia/Documents/Programacion/Repositorios/gzclp/app/src/main/AndroidManifest.xml:16:27-74
+activity#com.silviaandres.gzclp.WorkoutActivity
+ADDED from /Users/silvia/Documents/Programacion/Repositorios/gzclp/app/src/main/AndroidManifest.xml:19:9-23:20
+	android:name
+		ADDED from /Users/silvia/Documents/Programacion/Repositorios/gzclp/app/src/main/AndroidManifest.xml:19:19-50
+intent-filter#action:name:android.intent.action.MAIN
+ADDED from /Users/silvia/Documents/Programacion/Repositorios/gzclp/app/src/main/AndroidManifest.xml:20:13-22:29
+uses-sdk
+INJECTED from /Users/silvia/Documents/Programacion/Repositorios/gzclp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/silvia/Documents/Programacion/Repositorios/gzclp/app/src/main/AndroidManifest.xml
+INJECTED from /Users/silvia/Documents/Programacion/Repositorios/gzclp/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:design:27.1.1] /Users/silvia/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/c73e5a62043ccdc998bdff6fe6e0a9ea/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] /Users/silvia/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/c73e5a62043ccdc998bdff6fe6e0a9ea/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/silvia/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/2c598194a3d5682b51fae89fd50c8185/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/silvia/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/2c598194a3d5682b51fae89fd50c8185/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/silvia/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/fd9dd2612999d030d2d8b025431485a2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/silvia/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/fd9dd2612999d030d2d8b025431485a2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:27.1.1] /Users/silvia/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/624a5957940f1fbf0cf8e82e46ed2c3a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] /Users/silvia/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/624a5957940f1fbf0cf8e82e46ed2c3a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/silvia/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/3c805bdeb36ef6e313b822df25e9c609/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/silvia/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/3c805bdeb36ef6e313b822df25e9c609/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/silvia/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/e6373fa5af195837f6e9a28826871769/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/silvia/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/e6373fa5af195837f6e9a28826871769/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/silvia/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/5d4d48494fdab39678186e7ef67834a9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/silvia/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/5d4d48494fdab39678186e7ef67834a9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/silvia/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/297e8f782074de422dd6456c619429e4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/silvia/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/297e8f782074de422dd6456c619429e4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/silvia/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/bbce5eb090c3cc0eddaab58a07a620ef/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/silvia/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/bbce5eb090c3cc0eddaab58a07a620ef/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/silvia/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/13e064d91ed4c6078f62abc3b41d9c63/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/silvia/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/13e064d91ed4c6078f62abc3b41d9c63/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] /Users/silvia/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/436fa4f184868ef52f4260492d159eb5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] /Users/silvia/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/436fa4f184868ef52f4260492d159eb5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/silvia/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/fc254dee03fb9ea9add7ae7972bd5162/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/silvia/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/fc254dee03fb9ea9add7ae7972bd5162/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/silvia/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/8fb7714bbfd3b15400a52fac78b18493/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/silvia/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/8fb7714bbfd3b15400a52fac78b18493/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/silvia/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/4ec50bdeb9623649ccc16ae90c4e7f6d/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/silvia/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/4ec50bdeb9623649ccc16ae90c4e7f6d/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/silvia/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/7a14aa36d7d39841680de4cc929c8c14/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/silvia/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/7a14aa36d7d39841680de4cc929c8c14/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/silvia/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/efb3e83a3b75a967f0efd1aa742744d9/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/silvia/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/efb3e83a3b75a967f0efd1aa742744d9/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/silvia/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/b1d0935d6e119c4d2768ca2f3568a61a/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/silvia/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/b1d0935d6e119c4d2768ca2f3568a61a/AndroidManifest.xml:20:5-44
+INJECTED from /Users/silvia/Documents/Programacion/Repositorios/gzclp/app/src/main/AndroidManifest.xml
+INJECTED from /Users/silvia/Documents/Programacion/Repositorios/gzclp/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/silvia/Documents/Programacion/Repositorios/gzclp/app/src/main/AndroidManifest.xml
+		ADDED from /Users/silvia/Documents/Programacion/Repositorios/gzclp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/silvia/Documents/Programacion/Repositorios/gzclp/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/silvia/Documents/Programacion/Repositorios/gzclp/app/src/main/AndroidManifest.xml
+		ADDED from /Users/silvia/Documents/Programacion/Repositorios/gzclp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/silvia/Documents/Programacion/Repositorios/gzclp/app/src/main/AndroidManifest.xml

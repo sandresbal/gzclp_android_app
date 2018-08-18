@@ -1,0 +1,4 @@
+#Thu Aug 16 21:50:58 CEST 2018
+base.0=/Users/silvia/Documents/Programacion/Repositorios/app/build/intermediates/transforms/dexMerger/debug/4
+path.0=classes.dex
+renamed.0=classes.dex

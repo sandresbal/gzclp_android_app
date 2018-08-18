@@ -4,11 +4,13 @@ public class Week {
 
     private int id;
     private String name;
-    private Session[] array_sessions;
+
+
+    //private Session[] array_sessions;
 
     public Week() {
-        this.name = "Week " + id;
-        this.array_sessions = configureSessions(); //TODO PENSAR ¿se necesita?
+        this.name = "Week " + Integer.toString(id);
+        //this.array_sessions = configureSessions(); //TODO PENSAR ¿se necesita?
         /*Session A1  = new Session("A1");
         Session B1  = new Session("B1");
         Session A2 = new Session("A2");
@@ -24,6 +26,7 @@ public class Week {
         id += id; //TODO REVISAR INCREMENTOS
     }
 
+
     public Session[] configureSessions() {
         Session[] session_configuration = new Session[4];
         Session A1 = new Session("A1");
@@ -35,6 +38,22 @@ public class Week {
         Session B2 = new Session("B2");
         session_configuration [3] = B2;
         return session_configuration;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 
     //TODO GETTERS AND SETTERS

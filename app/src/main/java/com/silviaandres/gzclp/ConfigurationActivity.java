@@ -1,4 +1,9 @@
 package com.silviaandres.gzclp;
 
-public class ConfigurationActivity {
+import android.support.v7.app.AppCompatActivity;
+
+public class ConfigurationActivity extends AppCompatActivity{
+
+  
+
 }

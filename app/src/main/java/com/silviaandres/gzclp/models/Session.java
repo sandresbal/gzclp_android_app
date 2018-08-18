@@ -26,21 +26,11 @@ public class Session {
 
     }
 
-    public Map<String, Integer> configureRounds(String session_name, Data data) {
-        Map<String, Integer> rounds_of_the_session = null;
-        int[] array_integers = configureData(session_name, data);
-        String[] array_strings = configureExercises(session_name);
-        for (int i = 0; i < 4; i++) {
-            rounds_of_the_session.put(array_strings[0], array_integers[0]);
-        }
-        return rounds_of_the_session;
-    }
-
-    public Round[] configureRounds2(String session_name, Data data) {
+    public Round[] configureRounds(String session_name, Data data) {
         Round[] array_of_rounds = new Round[4];
         int[] array_integers = configureData(session_name, data);
         String[] array_strings = configureExercises(session_name);
-        String type_exercise;
+        String type_exercise = null;
         for (int i = 0; i < 4; i++) {
             switch (i) {
                 case (0):
@@ -57,10 +47,10 @@ public class Session {
                     break;
             }
 
-            Round r ();
-
+            Round r = new Round (type_exercise, array_strings[i], array_integers[i]);
             array_of_rounds[i] = r;
         }
+        return array_of_rounds;
     }
 
     public int[] configureData(String session_name, Data data) {
@@ -136,5 +126,11 @@ public class Session {
     }
 
 
-    //TODO GETTERS AND SETTERS
+    public String getSession_name() {
+        return session_name;
+    }
+
+    public void setSession_name(String session_name) {
+        this.session_name = session_name;
+    }
 }

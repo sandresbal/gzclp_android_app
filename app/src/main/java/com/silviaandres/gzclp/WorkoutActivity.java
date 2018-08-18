@@ -15,7 +15,7 @@ public class WorkoutActivity extends AppCompatActivity implements View.OnClickLi
     protected void onCreate(Bundle savedInstanceBundle){
         super.onCreate(savedInstanceBundle);
         setContentView(R.layout.current_workout);
-        Session current_session = new Session();
+        //Session current_session = new Session();
         TextView descripcion = findViewById(R.id.prueba);
         TextView descripcion2 = findViewById(R.id.prueba2);
 
@@ -24,18 +24,18 @@ public class WorkoutActivity extends AppCompatActivity implements View.OnClickLi
         boton.setOnClickListener(this);
 
         Log.d("Empezó la actividad","Se ha creado una sesión");
-        descripcion.setText(current_session.name);
-        descripcion2.setText(current_session.t1_exercise);
+        //descripcion.setText(current_session.name);
+        //descripcion2.setText(current_session.t1_exercise);
 
     }
 
     @Override
     public void onClick (View view){
-        Session new_session = new Session();
+        //Session new_session = new Session();
         TextView cambio = findViewById(R.id.prueba);
         TextView cambio2 = findViewById(R.id.prueba2);
-        cambio.setText(new_session.name);
-        cambio2.setText(new_session.t1_exercise);
+        //cambio.setText(new_session.name);
+        //cambio2.setText(new_session.t1_exercise);
     }
 
 

@@ -25,9 +25,6 @@
             </intent-filter>
         </activity>
         <activity android:name="com.silviaandres.gzclp.WorkoutActivity" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-            </intent-filter>
         </activity>
 
         <provider

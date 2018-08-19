@@ -5,9 +5,9 @@ public class Round {
     private int id;
     private String type_exercise; //???
     private String name_exercise;
-    private int data;
+    private float data;
 
-    public Round(String type_exercise, String name_exercise, int data){
+    public Round(String type_exercise, String name_exercise, float data){
 
         id += 1;
     }

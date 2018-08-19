@@ -51,8 +51,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     break;
                   case R.id.config:
                     Log.d("tercero", "config");
-                    //Intent open_configuration = new Intent(this, Workout.class);
-                    //startActivity(open_configuration);
+                    Intent open_configuration = new Intent(MainActivity.this, ConfigurationActivity.class);
+                    startActivity(open_configuration);
                     break;
                 }
                 return true;

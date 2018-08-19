@@ -28,7 +28,7 @@ public class Session {
 
     public Round[] configureRounds(String session_name, Data data) {
         Round[] array_of_rounds = new Round[4];
-        int[] array_integers = configureData(session_name, data);
+        float[] array_floats = configureData(session_name, data);
         String[] array_strings = configureExercises(session_name);
         String type_exercise = null;
         for (int i = 0; i < 4; i++) {
@@ -47,15 +47,15 @@ public class Session {
                     break;
             }
 
-            Round r = new Round (type_exercise, array_strings[i], array_integers[i]);
+            Round r = new Round (type_exercise, array_strings[i], array_floats[i]);
             array_of_rounds[i] = r;
         }
         return array_of_rounds;
     }
 
-    public int[] configureData(String session_name, Data data) {
+    public float[] configureData(String session_name, Data data) {
 
-        int[] session_data = new int[4];
+      float[] session_data = new float[4];
 
         switch (session_name) {
             case ("A1"):
@@ -73,7 +73,7 @@ public class Session {
             case ("A2"):
                 session_data[0] = data.getWeight_deadlift();
                 session_data[1] = data.getWeight_lunges();
-                session_data[2] = data.getWeight_scullcrushers();
+                session_data[2] = data.getWeight_skullcrushers();
                 session_data[3] = data.getWeight_pulldown();
                 break;
             case ("B2"):

@@ -17,6 +17,7 @@
             android:text="@string/squat_config" />
 
         <EditText
+            android:id="@+id/squat_data"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
@@ -26,6 +27,7 @@
             android:text="@string/ohp_config" />
 
         <EditText
+            android:id="@+id/ohp_data"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
@@ -35,6 +37,7 @@
             android:text="@string/deadlift_config" />
 
         <EditText
+            android:id="@+id/deadlift_data"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
@@ -44,6 +47,7 @@
             android:text="@string/bench_config" />
 
         <EditText
+            android:id="@+id/bench_data"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
@@ -55,6 +59,7 @@
             android:text="@string/row_config" />
 
         <EditText
+            android:id="@+id/row_data"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
@@ -64,6 +69,7 @@
             android:text="@string/front_squat_config" />
 
         <EditText
+            android:id="@+id/front_squat_data"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
@@ -73,6 +79,7 @@
             android:text="@string/lunges_config" />
 
         <EditText
+            android:id="@+id/lunges_data"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
@@ -81,11 +88,12 @@
             android:layout_height="wrap_content"
             android:text="@string/sumo_config" />
 
-        <!-- t3 -->
-
         <EditText
+            android:id="@+id/sumo_data"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
+
+        <!-- t3 -->
 
         <TextView
             android:layout_width="match_parent"
@@ -93,6 +101,7 @@
             android:text="@string/cg_bench_config" />
 
         <EditText
+            android:id="@+id/cg_bench_data"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
@@ -102,6 +111,7 @@
             android:text="@string/lateral_raises_config" />
 
         <EditText
+            android:id="@+id/lateral_raises_data"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
@@ -111,6 +121,7 @@
             android:text="@string/skullcrushers_config" />
 
         <EditText
+            android:id="@+id/skullcrushers_data"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
@@ -120,6 +131,7 @@
             android:text="@string/good_morning_config" />
 
         <EditText
+            android:id="@+id/good_morning_data"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
@@ -129,32 +141,45 @@
             android:text="@string/elevation_config" />
 
         <EditText
+            android:id="@+id/elevation_data"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/hundreds_config" />
 
         <EditText
+            android:id="@+id/hundreds_data"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/pulldown_config" />
 
         <EditText
+            android:id="@+id/pulldown_data"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/plank_config" />
 
         <EditText
+            android:id="@+id/plank_data"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save"/>
 
     </LinearLayout>
 </ScrollView>

@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sat Aug 18 18:13:32 CEST 2018
+#Sun Aug 19 10:56:43 CEST 2018
 1.base=/Users/silvia/Documents/Programacion/Repositorios/gzclp/app/build/intermediates/transforms/dexMerger/debug/15
 2.path=classes.dex
 0.baseType=DIRECTORY

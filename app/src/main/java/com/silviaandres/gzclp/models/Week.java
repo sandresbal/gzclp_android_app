@@ -56,7 +56,6 @@ public class Week {
         this.name = name;
     }
 
-    //TODO GETTERS AND SETTERS
 
     //TODO PENSAR EN INCREMENTO SEMANAL (Y DISTINGUIR EJERCICIOS
 }

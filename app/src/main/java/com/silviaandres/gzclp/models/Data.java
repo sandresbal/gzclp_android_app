@@ -29,9 +29,15 @@ public class Data {
   public Data() {
   }
 
-  public Map<String, Integer> saving_map_Config () {
-    Map<String, Integer> config = null;
-  }
+  /*public Map<String, Float> saving_map_Config () {
+    Map<String, Float> config = null;
+  }*/
+
+  /*public int[] configureArray (Data data){
+
+  }*/
+
+  //TODO HAY QUE HACER ALGÚN MÉTODO PARA RECORRER LOS DATOS Y VER QUE NO HAY NADA VACÍO
 
   public int getId() {
     return id;
@@ -40,7 +46,6 @@ public class Data {
   public void setId(int id) {
     this.id = id;
   }
-
 
   public float getWeight_squat() {
     return weight_squat;

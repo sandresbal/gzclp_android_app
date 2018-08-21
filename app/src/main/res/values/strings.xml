@@ -30,5 +30,6 @@
     <string name="pulldown_config">Max 15 rep. skullcrushers:</string>
     <string name="plank_config">Max 15 rep. good morning:</string>
 
+    <string name="save">Save</string>
 
 </resources>

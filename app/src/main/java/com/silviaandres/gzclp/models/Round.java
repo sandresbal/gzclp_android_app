@@ -35,5 +35,6 @@ public class Round {
 
     }*/
 
+    //TODO FALTA HACER ALGO CON LOS DATOS DE DATA
     //TODO get series & repetitions COMO MÉTODO PARA DENTRO DE ROUND
 }

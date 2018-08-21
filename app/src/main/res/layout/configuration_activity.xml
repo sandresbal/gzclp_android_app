@@ -11,6 +11,39 @@
         android:orientation="vertical"
         >
 
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/squat_config">
+
+            <android.support.design.widget.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:digits="0123456789.,"
+                android:imeOptions="actionNext"
+                android:inputType="numberDecimal"
+                android:nextFocusForward="@+id/squat_data1"
+                android:textAppearance="@android:style/TextAppearance.Material.Large.Inverse" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/squat_config">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/squat_data1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:digits="0123456789.,"
+            android:imeOptions="actionNext"
+            android:inputType="numberDecimal"
+            android:nextFocusForward="@+id/squat_data"
+            android:textAppearance="@android:style/TextAppearance.Material.Large.Inverse" />
+
+        </android.support.design.widget.TextInputLayout>
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -19,7 +52,11 @@
         <EditText
             android:id="@+id/squat_data"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:digits="0123456789.,"
+            android:imeOptions="actionNext"
+            android:nextFocusForward="@+id/ohp_data"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -29,7 +66,11 @@
         <EditText
             android:id="@+id/ohp_data"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:digits="0123456789.,"
+            android:imeOptions="actionNext"
+            android:nextFocusForward="@+id/deadlift_data"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -39,7 +80,11 @@
         <EditText
             android:id="@+id/deadlift_data"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:digits="0123456789.,"
+            android:imeOptions="actionNext"
+            android:nextFocusForward="@+id/bench_data"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -49,7 +94,11 @@
         <EditText
             android:id="@+id/bench_data"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:digits="0123456789.,"
+            android:imeOptions="actionNext"
+            android:nextFocusForward="@+id/row_data"/>
 
         <!--t2-->
 
@@ -61,7 +110,11 @@
         <EditText
             android:id="@+id/row_data"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:digits="0123456789.,"
+            android:imeOptions="actionNext"
+            android:nextFocusForward="@+id/front_squat_data"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -71,7 +124,11 @@
         <EditText
             android:id="@+id/front_squat_data"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:digits="0123456789.,"
+            android:imeOptions="actionNext"
+            android:nextFocusForward="@+id/lunges_data"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -81,7 +138,11 @@
         <EditText
             android:id="@+id/lunges_data"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:digits="0123456789.,"
+            android:imeOptions="actionNext"
+            android:nextFocusForward="@+id/sumo_data"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -91,7 +152,11 @@
         <EditText
             android:id="@+id/sumo_data"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:digits="0123456789.,"
+            android:imeOptions="actionNext"
+            android:nextFocusForward="@+id/cg_bench_data"/>
 
         <!-- t3 -->
 
@@ -103,7 +168,11 @@
         <EditText
             android:id="@+id/cg_bench_data"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:digits="0123456789.,"
+            android:imeOptions="actionNext"
+            android:nextFocusForward="@+id/lateral_raises_data"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -113,7 +182,11 @@
         <EditText
             android:id="@+id/lateral_raises_data"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:digits="0123456789.,"
+            android:imeOptions="actionNext"
+            android:nextFocusForward="@+id/skullcrushers_data"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -123,7 +196,10 @@
         <EditText
             android:id="@+id/skullcrushers_data"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"             android:inputType="numberDecimal"
+            android:digits="0123456789.,"
+            android:imeOptions="actionNext"
+            android:nextFocusForward="@+id/good_morning_data"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -133,7 +209,11 @@
         <EditText
             android:id="@+id/good_morning_data"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:digits="0123456789.,"
+            android:imeOptions="actionNext"
+            android:nextFocusForward="@+id/elevation_data"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -143,7 +223,11 @@
         <EditText
             android:id="@+id/elevation_data"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:digits="0123456789.,"
+            android:imeOptions="actionNext"
+            android:nextFocusForward="@+id/hundreds_data"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -153,7 +237,11 @@
         <EditText
             android:id="@+id/hundreds_data"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:digits="0123456789.,"
+            android:imeOptions="actionNext"
+            android:nextFocusForward="@+id/pulldown_data"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -163,7 +251,11 @@
         <EditText
             android:id="@+id/pulldown_data"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:digits="0123456789.,"
+            android:imeOptions="actionNext"
+            android:nextFocusForward="@+id/plank_data"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -179,7 +271,17 @@
             android:id="@+id/save"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Save"/>
+            android:text="@string/save"/>
+
+        <android.support.design.widget.BottomNavigationView
+            android:id="@+id/menu_navigation"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            app:itemBackground="@color/colorPrimary"
+            app:itemIconTint="@color/white"
+            app:itemTextColor="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:menu="@menu/bottom_navigation_main" />
 
     </LinearLayout>
 </ScrollView>

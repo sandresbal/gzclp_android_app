@@ -26,6 +26,8 @@
         </activity>
         <activity android:name="com.silviaandres.gzclp.WorkoutActivity" >
         </activity>
+        <activity android:name="com.silviaandres.gzclp.ConfigurationActivity" >
+        </activity>
     </application>
 
 </manifest>

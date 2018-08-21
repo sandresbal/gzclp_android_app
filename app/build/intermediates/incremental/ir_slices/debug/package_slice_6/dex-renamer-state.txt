@@ -1,4 +1,4 @@
-#Sat Aug 18 18:13:32 CEST 2018
+#Sun Aug 19 19:42:18 CEST 2018
 base.0=/Users/silvia/Documents/Programacion/Repositorios/gzclp/app/build/intermediates/transforms/dexMerger/debug/7
 path.0=classes.dex
 renamed.0=classes.dex

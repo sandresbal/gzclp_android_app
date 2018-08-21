@@ -66,24 +66,24 @@ public class ConfigurationActivity extends AppCompatActivity implements View.OnC
     Data current_data = new Data();
 
     current_data.setWeight_squat(Float.parseFloat(squat_data.getText().toString()));
-    current_data.setWeight_ohp(Integer.valueOf(ohp_data.getText().toString()));
-    current_data.setWeight_deadlift(Integer.valueOf(deadlift_data.getText().toString()));
-    current_data.setWeight_bench(Integer.valueOf(bench_data.getText().toString()));
+    current_data.setWeight_ohp(Float.parseFloat(ohp_data.getText().toString()));
+    current_data.setWeight_deadlift(Float.parseFloat(deadlift_data.getText().toString()));
+    current_data.setWeight_bench(Float.parseFloat(bench_data.getText().toString()));
 
-    current_data.setWeight_row(Integer.valueOf(row_data.getText().toString()));
-    current_data.setWeight_front_squat(Integer.valueOf(front_data.getText().toString()));
-    current_data.setWeight_lunges(Integer.valueOf(lunges_data.getText().toString()));
-    current_data.setWeight_sumo(Integer.valueOf(sumo_data.getText().toString()));
+    current_data.setWeight_row(Float.parseFloat(row_data.getText().toString()));
+    current_data.setWeight_front_squat(Float.parseFloat(front_data.getText().toString()));
+    current_data.setWeight_lunges(Float.parseFloat(lunges_data.getText().toString()));
+    current_data.setWeight_sumo(Float.parseFloat(sumo_data.getText().toString()));
 
-    current_data.setWeight_CG_bench(Integer.valueOf(squat_data.getText().toString()));
-    current_data.setWeight_lateral_raises(Integer.valueOf(squat_data.getText().toString()));
-    current_data.setWeight_skullcrushers(Integer.valueOf(squat_data.getText().toString()));
-    current_data.setWeight_squat(Integer.valueOf(squat_data.getText().toString()));
+    current_data.setWeight_CG_bench(Float.parseFloat(squat_data.getText().toString()));
+    current_data.setWeight_lateral_raises(Float.parseFloat(squat_data.getText().toString()));
+    current_data.setWeight_skullcrushers(Float.parseFloat(squat_data.getText().toString()));
+    current_data.setWeight_squat(Float.parseFloat(squat_data.getText().toString()));
 
-    current_data.setLegs_elevation(Integer.valueOf(squat_data.getText().toString()));
-    current_data.setNumber_hundreds(Integer.valueOf(squat_data.getText().toString()));
-    current_data.setWeight_pulldown(Integer.valueOf(squat_data.getText().toString()));
-    current_data.setTime_plank(Integer.valueOf(squat_data.getText().toString()));
+    current_data.setLegs_elevation(Float.parseFloat(squat_data.getText().toString()));
+    current_data.setNumber_hundreds(Float.parseFloat(squat_data.getText().toString()));
+    current_data.setWeight_pulldown(Float.parseFloat(squat_data.getText().toString()));
+    current_data.setTime_plank(Float.parseFloat(squat_data.getText().toString()));
 
   }
 }
